@@ -1,0 +1,89 @@
+div.copyright{
+    display:block;
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+}
+html	{
+    background-color: black;
+}
+html, body{
+    height:100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    background: url(/images/milk-way.jpg) no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+p, h2 {
+    color: white;
+}
+.active {
+    background-color: grey;
+    color: white;
+}
+.right-nav {
+    float: right;
+    border-right:solid 1px white;
+}
+.left-nav {
+    float: left;
+}
+.left-nav img {
+    width: 40%;
+    height: 40%;
+}
+li p {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+li a {
+    display: block;
+}
+.right-nav a {
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+.right-nav a:hover {
+    background-color: lightblue;
+}
+#long-image {
+    background: url(/images/sunrise.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: -4%;
+    height: 40%;
+}
+#wrapper{
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: 4%;
+}
+#wrapper p, #wrapper h2{
+    margin: 0 auto;
+    padding-top: 2%;
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+@media (max-width: 500px) {
+    .copyright p {
+        font-size: 60%;
+    }
+}
